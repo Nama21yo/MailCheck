@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+}
+.my-custom-style {
+  .bg-blue-300 {
+    background-color: #39c8ff; /* Lighter blue */
+  }
+  .bg-blue-400 {
+    background-color: #4ea1fd; /* Medium blue */
+  }
+  .bg-blue-500 {
+    background-color: #2684ff; /* Primary blue */
+  }
+  .bg-blue-600 {
+    background-color: #0747a6; /* Darker blue */
+  }
+  .bg-blue-700 {
+    background-color: #0052cc; /* Darkest blue */
+  }
+  .text-blue-300 {
+    color: #39c8ff; /* Lighter blue text */
+  }
+  .text-blue-400 {
+    color: #4ea1fd; /* Medium blue text */
+  }
+  .text-blue-500 {
+    color: #2684ff; /* Primary blue text */
+  }
+  .text-blue-600 {
+    color: #0747a6; /* Darker blue text */
+  }
+  .text-blue-700 {
+    color: #0052cc; /* Darkest blue text */
+  }
+}
